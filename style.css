@@ -8,6 +8,7 @@
 body{
     width: 100%;
     background-color: #0c111b;
+    position: relative;
     font-family: roboto, sans-serif
 }
 .navbar{
@@ -18,7 +19,26 @@ body{
     left: 0;
     padding: 0 4%;
     background:#0c111b;
-    z-index: 0;
+    z-index: 9;
     display: flex;
     align-items: center;
+}
+.brand-logo{
+    height: 70px;
+}
+.nav-links{
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+}
+.nav-items a{
+    text-decoration: none;
+    margin-left: 20px;
+    text-transform: capitalize;
+    color: #fff;
+    opacity: 0.9;
+}
+.right-container{
+    border: none;
+    border-bottom: 20px soli #aaa;
 }
