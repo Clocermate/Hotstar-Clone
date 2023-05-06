@@ -42,3 +42,20 @@ body{
     display: block;
     margin-left: auto;
 }
+.search-box{
+    border: none;
+    border-bottom: 1px solid #aaa;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    width: 250px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.search-box:focus{
+    width: 400px;
+    border-color: #1f80e0;
+}
