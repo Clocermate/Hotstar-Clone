@@ -39,6 +39,6 @@ body{
     opacity: 0.9;
 }
 .right-container{
-    border: none;
-    border-bottom: 20px soli #aaa;
+    display: block;
+    margin-left: auto;
 }
